@@ -1,0 +1,99 @@
+*{
+  font-family: sans-serif;
+ }
+
+ body{
+     background-image: url("images/background.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+#sushi{
+  height: 116px;
+  width: 150px;
+}
+
+#snjsc{
+  color: white;
+  
+}
+
+#super{
+  color: red;
+  font-size: 50px;
+  margin-left: 90px;
+}
+
+
+
+#menu1,#menu2,#menu3{
+  width: 584.75px;
+  height: 899px;
+  margin-top: 10px;
+}
+
+
+#banner{
+  width: 1860px;
+  height: 116px;
+  background-color: black;
+  float: right;
+}
+#menu1{
+  float: left;
+}
+#menu3{
+  float: right;
+}
+#menu2{
+  margin-left: 140px;
+}
+
+
+
+
+
+
+
+/* Navigation Bar*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border: black 1px;
+    border-radius: 5%;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: black 1px;
+    border-radius: 2%;
+  }
+
+  #pdf{
+    float: right;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: lightgray;
+    color: black;
+    transition:0.3s;
+
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: firebrick;
+    color: white;
+    border: black 1px;
+
+  }
